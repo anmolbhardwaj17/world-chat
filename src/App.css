@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding-top:20px;
+  margin-bottom:20px;
+  width:60%;
+  margin:auto;
+}
+
+.App h2{
+  margin-top:2px;
+}
+.App h1{
+  margin-top:2px;
+}
+
+.app_form{
+  padding:20px;
+  padding-top:10px !important;
+  position: fixed;
+  bottom:0px;
+  z-index:1;
+  background-color: #e9e9eb;
+  width:60%;
+  margin:auto;
+}
+
+.app_formcontrol{
+  display:flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}
+.app_input{
+  flex:1;
+}
+.app_iconButton{
+  flex:0;
+}
+.start{
+  padding-top:50px;
+}
+.msgicon{
+  height:50px;
+  width:50px;
+}
+
+@media(max-width:769px){
+  .App{
+    width:80%;
+  }
+  .app_form{
+    width:80%;
+  }
+}
+@media(max-width:455px){
+  .App{
+    width:100%;
+  }
+  .app_form{
+    width:100%;
+  }
+}
+
+
+
